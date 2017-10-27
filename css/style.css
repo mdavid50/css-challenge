@@ -10,11 +10,26 @@ html, body {
 	box-sizing: border-box;
 }
 
+header {
+	color: greenyellow;
+	background-color: black;
+	padding-bottom: 10em;
+	padding-top: 10em;
+}
+
+h1 {
+	display: inline;
+	color: greenyellow;
+	padding-right: 1em;
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
-
+header {
+	text-align: center;
+}
 .clearfix {
 	clear: both;
 }
