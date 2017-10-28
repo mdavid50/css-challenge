@@ -61,9 +61,57 @@ h2 {
 	-webkit-margin-after: 0.83em;
 	-webkit-margin-start: 1em;
 	float: left;
-	-webkit-margin-end: 40%
+	-webkit-margin-end: 40%;
+    font-weight: bold
 }
 
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+img[src="images/captain-janeway.png"] {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-end: 1em;
+    float: right;
+    height: 30%;
+    width: 30%;
+}
+
+.about-me {
+    background-color: blue;
+    margin-top: 100px;
+    color: white;
+}
+
+img[src="images/stunning.jpg"] {
+    float: left;
+    height: 35%;
+    width: 35%;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    margin-right: 2em
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+style {
+    text-align: right;
+}
 
 
 .clearfix {
