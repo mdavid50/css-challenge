@@ -11,25 +11,61 @@ html, body {
 }
 
 header {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
 	color: greenyellow;
 	background-color: black;
-	padding-bottom: 10em;
-	padding-top: 10em;
 }
 
 h1 {
-	display: inline;
-	color: greenyellow;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
 	padding-right: 1em;
+	display: inline;
 }
 
+.sfooter-content {
+	font-family: monospace;
+}
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
-header {
-	text-align: center;
+
+img[src="images/welcome.gif"] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
+
+.instructions-wrapper {
+	border-style: solid;
+}
+
+.instructions-content {
+	float: left;
+	-webkit-margin-end: 40%;
+	margin-right: 0px;
+	width: 600px;
+}
+
+h2 {
+	display: block;
+	font-size: 1.5em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 1em;
+	float: left;
+	-webkit-margin-end: 40%
+}
+
+
+
 .clearfix {
 	clear: both;
 }
